@@ -11,7 +11,8 @@ int main()
 	stc.push("wy");
 	stc.push("li");
 	stc.push("ja");
-	std::cout << stc.pop() << std::endl;
-	std::cout << stc.pop() << std::endl;
-	std::cout << stc.pop() << std::endl;
+	stc.showStack();
+	stc.pop();
+	stc.pop();
+	stc.pop();
 }
