@@ -3,16 +3,23 @@
 
 #include "pch.h"
 #include <iostream>
-#include "stack.h"
+#include "queue.h"
 
 int main()
 {
-	stack stc;
-	stc.push("wy");
-	stc.push("li");
-	stc.push("ja");
-	stc.showStack();
-	stc.pop();
-	stc.pop();
-	stc.pop();
+	auto a = { "www","eee"};
+	std::string inputArray[] = { "w","wr","nr" };
+	queue q1(inputArray,3);
+	q1.showList();
+	/*
+	q1.addToListQueue("w");
+	q1.addToListQueue("z");
+	q1.addToListQueue("y");
+	q1.addToListQueue("m");
+	q1.showList();
+	std::cout << "pop begin" << std::endl;
+	q1.popFromList();
+	q1.showList();
+	q1.popFromList();
+	q1.showList();*/
 }
